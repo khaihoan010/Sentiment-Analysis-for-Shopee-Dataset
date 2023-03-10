@@ -140,7 +140,7 @@ def process_text(text, emoji_dict, teen_dict, wrong_lst):
 
 @st.cache_data
 def convert_df(df):
-   return df.to_csv(index=False).encode('utf-8')
+   return df.to_csv(index=False).encode('utf-8-sig')
 
 # Chuẩn hóa unicode tiếng việt
 # Chuẩn hóa unicode tiếng việt
