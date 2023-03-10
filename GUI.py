@@ -541,15 +541,15 @@ elif condition == 'Model Evaluation':
 
     original_title_duplicate = '<p style="font-family:Garamond, serif; color:Blue; font-size: 25px;"><b>LogisticRegression</b></p>'
     st.markdown(original_title_duplicate,unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('Data/LogisticRegression_eval.png')+"</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('Data/LogisticRegression_eval.PNG')+"</p>", unsafe_allow_html=True)
 
     original_title_duplicate = '<p style="font-family:Garamond, serif; color:Blue; font-size: 25px;"><b>DecisionTree</b></p>'
     st.markdown(original_title_duplicate,unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('Data/DecisionTree_eval.png')+"</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('Data/DecisionTree_eval.PNG')+"</p>", unsafe_allow_html=True)
 
     original_title_duplicate = '<p style="font-family:Garamond, serif; color:Blue; font-size: 25px;"><b>ExtraTreeClassifier</b></p>'
     st.markdown(original_title_duplicate,unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('Data/ExtraTreeClassifier_eval.png')+"</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('Data/ExtraTreeClassifier_eval.PNG')+"</p>", unsafe_allow_html=True)
 
     original_title_duplicate = '<p style="font-family:Garamond, serif; color:Black; font-size: 25px;"><b>&#8594 DecisionTree and ExtraTree Models are good enough for Sentiment Analysis because of their accuracy, f1-scores, and recall of over 90%.</b></p>'
     st.markdown(original_title_duplicate,unsafe_allow_html=True)
