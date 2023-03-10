@@ -390,7 +390,7 @@ if condition == 'Introduction':
     st.write("""
     Sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, 
 and helping a business to understand the social sentiment of their brand, product or service while monitoring online conversations.\n\n
-\tIn this project, we use comments history of Shopee ecommerce site to create predictive models that assist sellers in receiving quick responses 
+In this Project, We use comments history of Shopee ecommerce site to create predictive models that assist sellers in receiving quick responses 
 from customers (whether they like, notlike, or neutral) about Shoppe shop""")
 
  
