@@ -622,7 +622,7 @@ elif condition == 'Model Prediction':
                                 columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
                                 fit_columns_on_grid_load=True)
             
-            csv = convert_df(data)
+            csv = convert_df(data.encode("utf-8"))
             primaryColor = "#3795BD"
             s = f"""
             <style>
